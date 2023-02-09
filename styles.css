@@ -47,3 +47,14 @@ h1 {
   height: 48px;
   margin: 10px;
 }
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.image-right {
+  width: 25px;
+  height: 28px;
+  margin: 10px;
+}
