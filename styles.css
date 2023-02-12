@@ -13,7 +13,7 @@ body {
   border-radius: 2%;
   margin: 10% auto;
   padding: 20px;
-  height: 80vh;
+  /*height: 85vh;*/
 }
 
 .image {
@@ -28,6 +28,7 @@ h1 {
 
 .paragraph {
   color: hsl(215, 32%, 27%);
+  font-size: 25px;
 }
 
 .row {
@@ -35,6 +36,7 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   margin: 30px;
+  border-bottom: solid 1px hsl(215, 32%, 27%);
 }
 
 .left-side {
@@ -57,4 +59,37 @@ h1 {
   width: 25px;
   height: 28px;
   margin: 10px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.image-bottom-container {
+  width: 60px;
+  height: 60px;
+  border: solid 2px white;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.image-bottom {
+  width: 60px;
+  height: 60px;
+}
+
+.bottomline {
+  font-size: 22px;
+  color: hsl(215, 32%, 27%);
+}
+
+.bottom-paragraph {
+  margin: 20px;
+}
+
+.span {
+  color: white;
 }
